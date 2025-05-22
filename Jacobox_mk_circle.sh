@@ -1,4 +1,7 @@
 #!/bin/bash
+# make circle mask surrounding the input vessels
+# Jianbao
+
 InImg=$1
 
 3dmask_tool -dilate_input 2 \
